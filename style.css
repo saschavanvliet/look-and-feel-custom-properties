@@ -1,3 +1,4 @@
+/* Alle custom properties */
 :root {
     --primary-color-orange: #F7A100;
     --secundary-color-lightblack:#333333; 
@@ -7,12 +8,14 @@
     --border-radius: 8px;
   }
   
+/* Type tekst */
   body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif; /*fallback*/
     margin: 0;
     padding: 0;
   }
   
+  /* Header zelf */
   header {
     background-color: var(--primary-color-orange);
     color: var(--accent-color-white);
@@ -20,6 +23,7 @@
     padding: 20px;
   }
   
+  /* Header tekst */
   header h1 {
     font-size: var(--font-size-heading);
     margin: 0;
@@ -37,6 +41,7 @@
     font-size: var(--font-size-paragraph);
   }
   
+  /* Grootte en plek van de boxen */
   #box {
     height: 300px;
     width: 300px;
@@ -65,6 +70,7 @@
     bottom: 4.5em;
     }
 
+    /* Grootte en tekst footer */
   footer {
     background-color: var(--primary-color-orange);
     color: white;
