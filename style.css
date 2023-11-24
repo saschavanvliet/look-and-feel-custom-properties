@@ -1,0 +1,79 @@
+:root {
+    --primary-color-orange: #F7A100;
+    --secundary-color-lightblack:#333333; 
+    --accent-color-white: #FFFFFF;
+    --font-size-heading: 24px;
+    --font-size-paragraph: 16px;
+    --border-radius: 8px;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: var(--primary-color-orange);
+    color: var(--accent-color-white);
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: var(--font-size-heading);
+    margin: 0;
+  }
+  
+  .main-content {
+    padding: 20px;
+  }
+  
+  .main-content h2 {
+    font-size: var(--font-size-heading);
+  }
+  
+  .main-content p {
+    font-size: var(--font-size-paragraph);
+  }
+  
+  #box {
+    height: 300px;
+    width: 300px;
+    background-color: var(--secundary-color-lightblack);
+    position: relative;
+    bottom: 0em;
+    }
+
+  #box2 {
+    height: 300px;
+    width: 300px;
+    background-color: var(--accent-color-white);
+    border-style: solid;
+    border-color: #333333;
+    position: absolute;
+    left: 30em;
+    bottom: 4.4em;
+    }
+
+  #box3 {
+    height: 300px;
+    width: 300px;
+    background-color: var(--primary-color-orange);
+    position: absolute;
+    left: 60em;
+    bottom: 4.5em;
+    }
+
+  footer {
+    background-color: var(--primary-color-orange);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+  }
+
